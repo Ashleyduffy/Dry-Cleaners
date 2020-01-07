@@ -25,6 +25,11 @@ header {
     margin:5 0;
     max-height:5em; /*Note that the height and width may need to be adjusted for your image*/
     }
+.headerpic2 {
+  grid-area:headerpic;
+  margin:0 5;
+  max-height:5em;
+    } 
 
 .headertext {
     grid-area:headertext;
