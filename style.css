@@ -27,7 +27,7 @@ header {
     }
 .headerpic2 {
   grid-area:headerpic;
-  margin:0 5;
+  margin:0 15;
   max-height:5em;
     } 
 
