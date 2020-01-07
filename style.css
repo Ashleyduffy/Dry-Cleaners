@@ -41,7 +41,7 @@ header {
 header h1 {
      font-size:6vw;
      font-family:Impact;
-     text-shadow: 2px 2px 5px navy;
+     text-shadow: 2px 2px 5px black;
      margin: 2px 0;
     }
 
@@ -58,7 +58,7 @@ header a {
     }
 
 nav {   
-    background-color:navy;
+    background-color:red;
     font-size:125%;
     grid-area:nav;
     text-align:center;
