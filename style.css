@@ -3,6 +3,8 @@
 body {
   font-family: Verdana;
   background-color:#51BFEB;
+  background: url ("bubbles.png");
+  background-repeat: repeat;
   margin:0;
     }
 
