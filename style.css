@@ -29,10 +29,13 @@ header {
     grid-area:social;
      margin:10 10;
      max-height:5em;
-     width:25px;
 }
 .clothes {
   border-radius:25px;
+  border:white;
+}
+.facebook {
+ max-height:3em; 
 }
 .headerpic2 {
   grid-area:headerpic;
