@@ -17,7 +17,8 @@ img {
     }
     
 header {
-    background:rgba(0,0,0,.2);
+    background: url ("bubbles.png");
+    background-repeat: repeat;
     grid-area:header;
     }
 
