@@ -32,7 +32,7 @@ header {
 }
 .clothes {
   border-radius:15px;
-  border:white;
+  border-color:white;
 }
 .facebook {
  max-height:3em; 
