@@ -31,11 +31,12 @@ header {
      max-height:5em;
 }
 .clothes {
-  border-radius:15px;
+  border-radius:10px;
   border-color:white;
 }
 .facebook {
  max-height:3em; 
+ border-radius:10px;
 }
 .headerpic2 {
   grid-area:headerpic;
