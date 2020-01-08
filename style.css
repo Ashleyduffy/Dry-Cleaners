@@ -31,6 +31,9 @@ header {
      max-height:5em;
      width:25px;
 }
+.clothes {
+  border-radius:25px;
+}
 .headerpic2 {
   grid-area:headerpic;
  
