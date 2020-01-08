@@ -2,7 +2,7 @@
 
 body {
   font-family: Verdana;
-  background: "bubbles.png";
+  background-image: url ("bubbles.png");
   background-repeat: repeat;
   margin:0;
     }
@@ -17,7 +17,6 @@ img {
     }
     
 header {
-    background-repeat: repeat;
     grid-area:header;
     background:rgba(0,0,0,.2);
     }
