@@ -25,10 +25,14 @@ header {
     margin:5 0;
     max-height:5em; /*Note that the height and width may need to be adjusted for your image*/
     }
+.social {
+    grid-area:social;
+     margin:10 10;
+     max-height:5em;
+}
 .headerpic2 {
   grid-area:headerpic;
-  margin:10 10;
-  max-height:5em;
+ 
     } 
 
 .headertext {
@@ -38,9 +42,9 @@ header {
     
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
-    grid-template-columns:30% auto;
+    grid-template-columns:30% 40% 30%;
     grid-template-areas:
-    "headerpic headertext"
+    "headerpic headertext social"
     }
 
 header h1 {
