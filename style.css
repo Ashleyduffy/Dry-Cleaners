@@ -36,16 +36,6 @@ header {
   border-radius:10px;
   border-color:white;
 }
-.facebook {
- max-width: 25%
- border-radius: 10px;
- position: absolute; 
- right: 400px; 
- top: 200px; 
- width: 90px; 
- height: 90px;
- align-items: left;
-}
 .bbb {
  grid-area:social;
   margin:5 0;
