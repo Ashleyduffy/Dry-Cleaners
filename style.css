@@ -36,7 +36,8 @@ header {
   border-color:white;
 }
 .facebook {
- max-height: 80px; 
+ max-width: 100%
+ height: 80px; 
  border-radius: 10px;
  position: fixed;
 }
