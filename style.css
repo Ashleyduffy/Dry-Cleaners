@@ -39,6 +39,11 @@ header {
  max-height:5em; 
  border-radius:10px;
 }
+.bbb {
+ grid-area:social;
+  margin:5 0;
+ max-height:5em;
+}
 .headerpic2 {
   grid-area:headerpic;
  
