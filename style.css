@@ -30,6 +30,7 @@ header {
     grid-area:social;
      margin:10 10;
      max-height:5em;
+  
 }
 .clothes {
   border-radius:10px;
@@ -42,7 +43,8 @@ header {
  right: 100px; 
  top: 60px; 
  width: 90px; 
- height: 90px; 
+ height: 90px;
+ align-items: left;
 }
 .bbb {
  grid-area:social;
