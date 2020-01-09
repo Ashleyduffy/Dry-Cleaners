@@ -45,8 +45,7 @@ header {
     } 
 
 .headertext {
-    grid-area:headertext;
-    text-align:center;
+    border-radius:10px;
     }
     
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
