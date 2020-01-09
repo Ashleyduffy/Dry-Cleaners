@@ -36,10 +36,14 @@ header {
   border-color:white;
 }
 .facebook {
- max-width: 100%
+ max-width: 25%
  height: 85px; 
  border-radius: 10px;
- position: fixed;
+ position: absolute; 
+  right: 10px; 
+  top: 20px; 
+  width: 90px; 
+  height: 90px; 
 }
 .bbb {
  grid-area:social;
