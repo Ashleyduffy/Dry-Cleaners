@@ -36,8 +36,9 @@ header {
   border-color:white;
 }
 .facebook {
- max-height: 100px; 
+ max-height: 75px; 
  border-radius: 10px;
+ position: relative;
 }
 .bbb {
  grid-area:social;
