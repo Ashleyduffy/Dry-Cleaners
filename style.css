@@ -81,6 +81,7 @@ header a {
     }
 header ul {
   color: #2E80F8;
+  text-decoration: none;
 }
 
 nav {   
