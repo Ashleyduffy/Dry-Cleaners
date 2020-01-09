@@ -1,7 +1,7 @@
 /*index - this does the sticky navigation (top) and the header having an image beside the text*/
 
 body {
-  background-image: url ("bubbles.png");
+  background-image: url("bubbles.png");
   background-repeat: repeat;
   font-family: Verdana;
   margin:0;
