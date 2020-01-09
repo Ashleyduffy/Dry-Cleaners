@@ -195,13 +195,13 @@ section a {
 
 aside {
     background:rgba(255,255,255,.3);
-    color: white;
+    color: navy;
     grid-area:aside;
     }
 
 footer {
     background:rgba(255,255,255,.3);
-    color:white;
+    color:navy;
     text-align:right;
     grid-area:footer;
     }
