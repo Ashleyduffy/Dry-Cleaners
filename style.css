@@ -36,7 +36,7 @@ header {
   border-color:white;
 }
 .facebook {
- max-height:5em; 
+ max-height:20px; 
  border-radius:10px;
 }
 .bbb {
@@ -223,12 +223,6 @@ grid-template-areas:
     "aside"
     "footer";
   }
-.headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
-    display:grid;
-    grid-template-columns:30% 40% 30%;
-    grid-template-areas:
-    "headerpic headertext social"
-    }
  
 /*This stuff is for the hamburger menu*/
 .toggleNav {
