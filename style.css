@@ -1,6 +1,8 @@
 /*index - this does the sticky navigation (top) and the header having an image beside the text*/
 
 body {
+  background-image: url ("bubbles.png");
+  background-repeat: repeat;
   font-family: Verdana;
   margin:0;
     }
@@ -119,8 +121,6 @@ nav {
     }
     
 main {
-    background-image: url ("bubbles.png");
-    background-repeat: repeat;
     background:rgba(0,0,0,.2);
     color:white;
     grid-area:main;
