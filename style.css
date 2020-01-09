@@ -38,7 +38,7 @@ header {
 .facebook {
  max-height: 75px; 
  border-radius: 10px;
- position: relative;
+ position: fixed;
 }
 .bbb {
  grid-area:social;
