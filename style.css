@@ -39,10 +39,10 @@ header {
  max-width: 25%
  border-radius: 10px;
  position: absolute; 
-  right: 100px; 
-  top: 50px; 
-  width: 90px; 
-  height: 90px; 
+ right: 100px; 
+ top: 60px; 
+ width: 90px; 
+ height: 90px; 
 }
 .bbb {
  grid-area:social;
