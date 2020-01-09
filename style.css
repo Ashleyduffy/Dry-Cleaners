@@ -79,6 +79,9 @@ header a {
     text-decoration:none;
     color:white;
     }
+header ul {
+  color: #2E80F8;
+}
 
 nav {   
     background-color:#B21515;
