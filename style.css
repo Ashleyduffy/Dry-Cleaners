@@ -25,7 +25,7 @@ header {
     grid-area:headerpic;
     margin:5 0;
     position: relative;
-    top: -20px;
+    top: -15px;
     max-height:5em; /*Note that the height and width may need to be adjusted for your image*/
     }
 .social {
