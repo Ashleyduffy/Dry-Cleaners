@@ -266,6 +266,9 @@ grid-template-areas:
     "main aside"
     "footer footer";
     }
+  .facebook {
+  max-height:3em;
+}
 } 
 
 /*---------------------Desktop media query----------------------------*/
@@ -279,6 +282,9 @@ grid-template-areas:
     "main aside"
     "footer footer";
     }
+  .facebook {
+  max-height:4em;
+}
     
 #navwrapper {
     display:grid;
