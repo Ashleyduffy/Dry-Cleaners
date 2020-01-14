@@ -2,7 +2,19 @@
 
 body {
   background-image: url("bubbles.png");
-  background-repeat: repeat;
+  background-repeat: repeat;REFERENCES 
+Steve Schram, Employer 
+Quality Dry Cleaners 
+(937)673-4571
+
+Jeff Chew 
+Lacrosse Coach 
+(937)477-6255
+
+Josh Craig 
+Teacher 
+josh.craig@bss.k12.oh.us
+
   font-family: Verdana;
   margin:0;
     }
@@ -32,16 +44,18 @@ header {
     grid-area:social;
      margin:10 10;
      max-height:5em;
-  
+     border:2px dashed pink;
 }
 .store4 {
   border-radius:10px;
   border-color:white;
 }
 .bbb {
- grid-area:social;
   margin:5 0;
- max-height:5em;
+  max-height:5em;
+}
+.facebook {
+  max-height:2em;
 }
 .headerpic2 {
   grid-area:headerpic;
