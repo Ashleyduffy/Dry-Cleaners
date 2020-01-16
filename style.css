@@ -217,6 +217,7 @@ div#slider { overflow: hidden; }
 div#slider figure img { width: 20%;}
 div#slider figure { 
   position: relative;
+  border: 5px solid #fff;
   z-index:1;
   width: 500%;
   margin: 0;
