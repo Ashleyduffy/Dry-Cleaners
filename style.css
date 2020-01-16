@@ -43,6 +43,7 @@ header {
 }
 .facebook {
   max-height:2em;
+  border-radius:10px;
 }
 .headerpic2 {
   grid-area:headerpic;
