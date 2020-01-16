@@ -256,7 +256,7 @@ grid-template-areas:
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
     }
 .logo {
-  max-height: ;
+  max-height:25em;
 }
 
 #flex-nav ul {
