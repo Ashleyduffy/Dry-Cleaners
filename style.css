@@ -45,6 +45,9 @@ header {
   max-height:2em;
   border-radius:10px;
 }
+.logo {
+  max-height:25em;
+}
 .headerpic2 {
   grid-area:headerpic;
  
@@ -256,9 +259,11 @@ grid-template-areas:
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
     }
 .logo {
-  max-height:25em;
+  max-height:10em;
 }
-
+.bbb {
+  max-height:4em;
+}
 #flex-nav ul {
     display: none; /*jQuery toggles the nav from to this class to the .open when clicked*/
     text-align:center;
