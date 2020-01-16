@@ -60,7 +60,7 @@ header {
     
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
-    grid-template-columns:30% 35% 35%;
+    grid-template-columns:40% 45% 15%;
     grid-template-areas:
     "headerpic headertext social"
     }
@@ -260,7 +260,7 @@ grid-template-areas:
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
     }
 .logo {
-  max-height:13em;
+  max-height:12em;
 }
 .bbb {
   max-height:4em;
