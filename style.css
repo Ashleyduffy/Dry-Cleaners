@@ -265,7 +265,7 @@ grid-template-areas:
   max-height:11em;
 }
 .bbb {
-  max-height:4em;
+  max-height:3em;
 }
 #flex-nav ul {
     display: none; /*jQuery toggles the nav from to this class to the .open when clicked*/
