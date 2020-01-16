@@ -260,7 +260,7 @@ grid-template-areas:
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
     }
 .logo {
-  max-height:12em;
+  max-height:11em;
 }
 .bbb {
   max-height:4em;
