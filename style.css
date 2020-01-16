@@ -208,7 +208,7 @@ footer {
 .nestedgrid{
 display:grid;
 grid-template-areas:
-"div1 div2";
+"div1 div2 div3 div4";
 }
     
 /*--------Mobile first - no media query needed until the screen is larger than 480px---------*/  
