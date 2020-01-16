@@ -214,7 +214,7 @@ aside {
 
 
 div#slider { overflow: hidden; }
-div#slider figure img { width: 100%;}
+div#slider figure img { width: 20%;}
 div#slider figure { 
   position: relative;
   border: 5px solid #fff;
