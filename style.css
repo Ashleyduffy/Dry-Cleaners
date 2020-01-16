@@ -60,7 +60,7 @@ header {
     
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
-    grid-template-columns:40% 45% 15%;
+    grid-template-columns:30% 55% 15%;
     grid-template-areas:
     "headerpic headertext social"
     }
