@@ -47,6 +47,7 @@ header {
 }
 .logo {
   max-height:25em;
+  text-align:center;
 }
 .headerpic2 {
   grid-area:headerpic;
@@ -59,7 +60,7 @@ header {
     
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
-    grid-template-columns:25% 40% 35%;
+    grid-template-columns:30% 35% 35%;
     grid-template-areas:
     "headerpic headertext social"
     }
