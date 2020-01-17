@@ -46,9 +46,6 @@ header {
   max-height:2em;
   border-radius:10px;
 }
-.logo {
-  text-align:center;
-}
 .headerpic2 {
   grid-area:headerpic;
  
