@@ -86,6 +86,7 @@ header li {
 header p {
   text-align: right;
   color: navy;
+  font-size: 15px;
 }
 
 nav {   
