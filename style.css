@@ -71,7 +71,7 @@ header {
 
 header h1 {
      font-size:6vw;
-     font-family:Impact;
+     font-family:Arial;
      text-shadow: 2px 2px 5px black;
      margin: 2px 0;
     }
@@ -105,6 +105,9 @@ nav {
     position: sticky;
     top:0;
     z-index:999;
+}
+nav li {
+ list-style-type: none; 
 }
 /*This stuff is to make my navigation go horizontal on full screen*/
 .first {
@@ -146,7 +149,7 @@ main {
     }
 
 main a {
-    color:mediumspringgreen;
+    
     font-weight:bold;
 }
 
