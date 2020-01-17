@@ -247,8 +247,6 @@ grid-template-areas:
 }
 #content-mobile {
   display:none;
-  color: navy;
-  font-size: 12px;
 }
     
 /*--------Mobile first - no media query needed until the screen is larger than 480px---------*/  
@@ -300,8 +298,14 @@ grid-template-areas:
 #flex-nav a:hover {
     color:white;
     }
-#content-desktop {display:none;}
-#content-mobile {display:block;}
+#content-desktop {
+  display:none;
+}
+#content-mobile {
+  display:block;
+  color: navy;
+  font-size: 12px;
+}
 
 /*---------------------Tablet media query----------------------------*/
 @media only screen and (min-width: 480px)  {
@@ -319,6 +323,12 @@ grid-template-areas:
   .logo {
     max-height: 12em;
   }
+  #content-desktop {
+  display:block;
+}
+#content-mobile {
+  display:none;
+}
 } 
 
 /*---------------------Desktop media query----------------------------*/
@@ -355,6 +365,11 @@ grid-template-areas:
     
     padding-top:10px;
     }
-  
+  #content-desktop {
+  display:block;
+}
+#content-mobile {
+  display:none;
+}
     
 }
