@@ -38,7 +38,6 @@ header {
   border-color:white;
 }
 .bbb {
-  margin:5px 0px;
   max-height:5em;
   bottom:5px; 
   left: 5px;
@@ -46,8 +45,6 @@ header {
 .facebook {
   max-height:2em;
   border-radius:10px;
-  bottom:5px;
-  right:5px;
 }
 .logo {
   max-height:20em;
