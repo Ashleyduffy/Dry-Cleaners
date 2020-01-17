@@ -298,7 +298,10 @@ grid-template-areas:
 #content-mobile {
   display:block;
 }
-
+.headerpic {
+ max-height:10em;
+}
+}
 /*---------------------Tablet media query----------------------------*/
 @media only screen and (min-width: 480px)  {
 .wrapper1 { /*index.html*/
@@ -324,6 +327,9 @@ grid-template-areas:
 }
 #content-mobile {
   display:block;
+}
+  .headerpic {
+ max-height:11em;
 }
 } 
 
@@ -367,5 +373,7 @@ grid-template-areas:
 #content-mobile {
   display:none;
 }
-    
+ .headerpic {
+ max-height:12em;
+}   
 }
