@@ -337,6 +337,12 @@ grid-template-areas:
 #content-mobile {
   display:none;
 }
+    #content-desktop {
+  display:block;
+}
+#content-mobile {
+  display:none;
+}
 } 
 
 /*---------------------Desktop media query----------------------------*/
