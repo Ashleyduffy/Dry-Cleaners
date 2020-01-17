@@ -43,6 +43,9 @@ header {
   max-height:2em;
   border-radius:10px;
 }
+figcaption {
+  display: block;
+}
 .headerpic2 {
   grid-area:headerpic;
  
