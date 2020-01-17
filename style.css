@@ -266,10 +266,6 @@ grid-template-areas:
 .toggleNav {
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
     }
-.logo {
-  max-height:12em;
-  top:2px;
-}
 .bbb {
   max-height:3em;
 }
@@ -318,9 +314,7 @@ grid-template-areas:
   .facebook {
   max-height:3em;
 }
-  .logo {
-    max-height: 10em;
-  }
+ 
   #content-desktop {
   display:block;
 }
@@ -349,9 +343,6 @@ grid-template-areas:
   .facebook {
   max-height:4em;
 }
-  .logo {
-   max-height:12em; 
-  }
     
 #navwrapper {
     display:grid;
