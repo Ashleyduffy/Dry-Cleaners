@@ -306,6 +306,7 @@ grid-template-areas:
   display:block;
   color: navy;
   font-size: 12px;
+  float: right;
 }
 
 /*---------------------Tablet media query----------------------------*/
