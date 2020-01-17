@@ -45,6 +45,7 @@ header {
 }
 figcaption {
   display: block;
+  font-size: 10px;
 }
 .headerpic2 {
   grid-area:headerpic;
