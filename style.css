@@ -88,6 +88,10 @@ header li {
   color: navy;
   text-decoration: none;
 }
+header p {
+  text-align: right;
+  color: navy;
+}
 
 nav {   
     background-color:#B21515;
@@ -302,10 +306,6 @@ grid-template-areas:
 }
 #content-mobile {
   display:block;
-  color: navy;
-  font-size: 12px;
-  float: right;
-  top: 6em;
 }
 
 /*---------------------Tablet media query----------------------------*/
