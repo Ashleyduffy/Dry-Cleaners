@@ -331,6 +331,9 @@ grid-template-areas:
   .headerpic {
  max-height:11em;
 }
+header p {
+  text-align:left;
+  }
 } 
 
 /*---------------------Desktop media query----------------------------*/
