@@ -106,6 +106,9 @@ nav {
     top:0;
     z-index:999;
 }
+h2 {
+  font-family: Arial;
+}
 nav li {
  list-style-type: none; 
 }
