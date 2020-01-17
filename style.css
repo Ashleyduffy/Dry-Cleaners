@@ -23,14 +23,14 @@ header {
 
 .headerpic {
     grid-area:headerpic;
-    margin:5 0;
+    margin:5px 0px;
     position: relative;
     top: -15px;
     max-height:4em; /*Note that the height and width may need to be adjusted for your image*/
     }
 .social {
     grid-area:social;
-     margin:10 10;
+     margin:10px 10px;
      max-height:5em;
 }
 .store4 {
@@ -38,7 +38,7 @@ header {
   border-color:white;
 }
 .bbb {
-  margin:5 0;
+  margin:5px 0px;
   max-height:5em;
   bottom:5px; 
   left: 5px;
@@ -192,7 +192,7 @@ section a {
 
 .article2 {
     background-color: rgba(255,255,255,.3);
-    color: block;
+    color: black;
     grid-area:article2;
     }
 
