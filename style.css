@@ -42,7 +42,7 @@ header {
 .facebook {
   max-height:3em;
   border-radius:10px;
-  float:left;
+  float:center;
 }
 figcaption {
   display: block;
