@@ -30,8 +30,6 @@ header {
     }
 .social {
     grid-area:social;
-     margin:10px 10px;
-     max-height:5em;
 }
 .store4 {
   border-radius:10px;
