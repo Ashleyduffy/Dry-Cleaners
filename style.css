@@ -47,7 +47,6 @@ header {
   border-radius:10px;
 }
 .logo {
-  max-height:20em;
   text-align:center;
 }
 .headerpic2 {
@@ -248,12 +247,6 @@ display:grid;
 grid-template-areas:
 "div1 div2 div3 div4";
 }
-#content-desktop {
-  display:block;
-}
-#content-mobile {
-  display:none;
-}
     
 /*--------Mobile first - no media query needed until the screen is larger than 480px---------*/  
 .wrapper1 { /*index.html*/
@@ -273,7 +266,7 @@ grid-template-areas:
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
     }
 .logo {
-  max-height:11em;
+  max-height:12em;
   top:2px;
 }
 .bbb {
@@ -329,7 +322,7 @@ grid-template-areas:
   max-height:3em;
 }
   .logo {
-    max-height: 12em;
+    max-height: 10em;
   }
   #content-desktop {
   display:block;
@@ -338,10 +331,10 @@ grid-template-areas:
   display:none;
 }
     #content-desktop {
-  display:block;
+  display:none;
 }
 #content-mobile {
-  display:none;
+  display:block;
 }
 } 
 
@@ -359,6 +352,9 @@ grid-template-areas:
   .facebook {
   max-height:4em;
 }
+  .logo {
+   max-height:12em; 
+  }
     
 #navwrapper {
     display:grid;
