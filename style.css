@@ -85,7 +85,8 @@ header a {
     }
 header li {
   color: navy;
-  text-decoration: none;
+  font-size: 20px;
+  
 }
 header p {
   text-align: right;
