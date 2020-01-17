@@ -40,12 +40,14 @@ header {
 .bbb {
   margin:5 0;
   max-height:5em;
-  float:bottom left;
+  bottom:0px; 
+  left:0px;
 }
 .facebook {
   max-height:2em;
   border-radius:10px;
-  float: bottom right;
+  bottom:0px;
+  right:0px;
 }
 .logo {
   max-height:20em;
