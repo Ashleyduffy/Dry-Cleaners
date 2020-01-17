@@ -242,8 +242,14 @@ display:grid;
 grid-template-areas:
 "div1 div2 div3 div4";
 }
-#content-desktop {display:block;}
-#content-mobile {display:none;}
+#content-desktop {
+  display:block;
+}
+#content-mobile {
+  display:none;
+  color: navy;
+  font-size: 12px;
+}
     
 /*--------Mobile first - no media query needed until the screen is larger than 480px---------*/  
 .wrapper1 { /*index.html*/
@@ -349,5 +355,6 @@ grid-template-areas:
     
     padding-top:10px;
     }
+  
     
 }
