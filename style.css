@@ -44,6 +44,7 @@ header {
   max-height:3em;
   border-radius:10px;
   float:center;
+  left: 2px;
 }
 figure {
   display: flex;
@@ -311,7 +312,7 @@ grid-template-areas:
   display:block;
 }
 .headerpic {
- max-height:13em;
+ max-height:20em;
 }
 .bbb {
   max-height: 3em;
