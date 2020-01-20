@@ -354,7 +354,8 @@ header {
   display:block;
 }
   .headerpic {
- max-height:15em;
+ max-height:14em;
+ left: 10px;
 }
 header p {
   text-align:left;
