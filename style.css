@@ -38,8 +38,6 @@ header {
   align-items: center;
   width: 175px;
   float: left;
-  border-style: solid;
-  border-color: black;
 }
 figcaption {
   display: block;
