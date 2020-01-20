@@ -23,15 +23,19 @@ header {
 
 .headerpic {
     grid-area:headerpic;
+  max-height: 16em;
   border-style: solid;
   border-color: red;
     }
 .headertext {
+  grid-area:headertext;
+  max-height: 16em;
   border-style: solid;
   border-color: red;
     }
 .social {
-    grid-area:social;
+  grid-area:social;
+  max-height: 16em;
   border-style: solid;
   border-color: red;
 }
@@ -50,12 +54,10 @@ header {
 .facebook {
   max-height:3em;
   border-radius:10px;
-  float:center;
-  left: 2px;
 }
 figure {
   display: flex;
-  align-items: center;
+  width: 50px;
   border-style: solid;
   border-color: white;
 }
