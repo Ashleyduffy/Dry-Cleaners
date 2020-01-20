@@ -38,6 +38,7 @@ header {
 .bbb {
   max-height:5em;
   float:right;
+  top: -3px;
 }
 .facebook {
   max-height:3em;
