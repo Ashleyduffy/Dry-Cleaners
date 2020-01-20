@@ -319,12 +319,7 @@ grid-template-areas:
 header {
  max-height : 14em; 
 }
-.headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
-    display:grid;
-    grid-template-columns:40% 35% 25%;
-    grid-template-areas:
-    "headerpic headertext social"
-    }
+
 }
 /*---------------------Tablet media query----------------------------*/
 @media only screen and (min-width: 480px)  {
