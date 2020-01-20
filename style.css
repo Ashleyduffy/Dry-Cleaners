@@ -55,6 +55,7 @@ header {
 .facebook {
   max-height:3em;
   border-radius:10px;
+  top: -5px;
 }
 figure2 {
   display: flex;
