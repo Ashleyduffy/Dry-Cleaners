@@ -1,16 +1,13 @@
 /*index - this does the sticky navigation (top) and the header having an image beside the text*/
-
 body {
   background-image: url("bubbles.png");
   background-repeat: repeat;
   font-family: Arial;
   margin:0;
     }
-
 img {
     max-width:100%;
     }
-
 .box {
   border-radius: 1px;
   padding: 10px;
@@ -23,36 +20,26 @@ header {
 
 .headerpic {
     grid-area:headerpic;
+  max-height: 16em;
     }
 .headertext {
   grid-area:headertext;
+  max-height: 16em;
     }
 .social {
   grid-area:social;
+  max-height: 16em;
 }
 .logo {
   max-height:15em; /*Note that the height and width may need to be adjusted for your image*/
 }
-.store4 {
-  border-radius:10px;
-  border-color:white;
-}
-.bbb {
-  max-height:5em;
-  float: right;
-  top: -5px;
-}
 
-.facebook {
-  max-height:3em;
-  border-radius:10px;
-  top: -5px;
-}
-figure2 {
-  display: flex;
+  figure2 {
   align-items: center;
   width: 175px;
   float: left;
+  border-style: solid;
+  border-color: black;
 }
 figcaption {
   display: block;
@@ -63,20 +50,19 @@ figcaption {
   grid-area:headerpic;
  
     } 
+    
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
-   grid-template-columns:25% 50% 25%;
+    grid-template-columns:25% 50% 25%;
     grid-template-areas:
     "headerpic headertext social"
     }
-
 header h1 {
      font-size:6vw;
      font-family:Arial;
      text-shadow: 2px 2px 5px black;
      margin: 2px 0;
     }
-
 header h4 {
     font-size:3vw;
     font-family:Arial;
@@ -99,7 +85,6 @@ header p {
   color: navy;
   font-size: 15px;
 }
-
 nav {   
     background-color:#B21515;
     font-size:125%;
@@ -124,23 +109,18 @@ nav ul {
     grid-area:first;
     margin-left:0;
 }
-
 .second {
     grid-area:second;
 }
-
 .third {
     grid-area:third;
 }
-
 .fourth {
     grid-area:fourth;
 }
-
 .fifth {
     grid-area:fifth;
 }
-
 #navwrapper {
     display:grid;
     grid-template-areas:
@@ -157,12 +137,10 @@ main {
     grid-area:main;
   
     }
-
 main a {
     
     font-weight:bold;
 }
-
 .csstricks {
     margin:auto 5%;
     max-width:90%;
@@ -173,13 +151,11 @@ main a {
     color: white;
     grid-area:section1;
     }
-
 .section2{
     background-color: indigo;
     color: white;
     grid-area:section2;
     }
-
 .section3{
     background-color: orange;
     color: white;
@@ -190,31 +166,26 @@ section a {
     color:black;
     font-weight:bold;
 }
-
 .article1 {
     background-color:gray;
     color: black;
     grid-area:article1;
     }
-
 .article2 {
     background-color: rgba(255,255,255,.3);
     color: black;
     grid-area:article2;
     }
-
 .article3 {
     background:linear-gradient(to top, white, black);
     color: white;
     grid-area:article3;
     }
-
 .article4 {
     background-color: rgba(255,255,255,.3);
     color: white;
     grid-area:article4;
     }
-
 aside {
     background:rgba(255,255,255,.3);
     color: navy;
@@ -232,8 +203,6 @@ aside {
 85% { left: -300%; }
 100% { left: -400%; }
 }
-
-
 div#slider { overflow: hidden; }
 div#slider figure img { width: 20%;}
 div#slider figure { 
@@ -246,7 +215,6 @@ div#slider figure {
   font-size: 0;
   animation: 30s slidy infinite; 
 }
-
 footer {
     background:rgba(255,255,255,.3);
     color:navy;
@@ -295,12 +263,10 @@ grid-template-areas:
     padding-left:10px;
     padding-top:10px;
     }
-
 #flex-nav a {
     color:white;
     text-decoration:none;
     }
-
 #flex-nav a:hover {
     color:white;
     }
@@ -319,7 +285,12 @@ grid-template-areas:
 header {
  max-height : 14em; 
 }
-
+.headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
+    display:grid;
+    grid-template-columns:40% 35% 25%;
+    grid-template-areas:
+    "headerpic headertext social"
+    }
 }
 /*---------------------Tablet media query----------------------------*/
 @media only screen and (min-width: 480px)  {
@@ -355,7 +326,6 @@ header p {
   text-align:left;
   }
 } 
-
 /*---------------------Desktop media query----------------------------*/
 @media only screen and (min-width: 960px)   {
      
@@ -385,7 +355,6 @@ header p {
     display:grid;
     text-align:center;
   }
-
 #flex-nav li {
     
     padding-top:10px;
