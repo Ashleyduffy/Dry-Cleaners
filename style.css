@@ -126,7 +126,7 @@ nav {
 h2 {
   font-family: Arial;
 }
-nav li {
+nav ul {
  list-style-type: none; 
 }
 /*This stuff is to make my navigation go horizontal on full screen*/
