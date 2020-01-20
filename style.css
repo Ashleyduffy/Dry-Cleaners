@@ -305,7 +305,10 @@ grid-template-areas:
   display:block;
 }
 .headerpic {
- max-height:10em;
+ max-height:13em;
+}
+.bbb {
+  max-height: 5em;
 }
 }
 /*---------------------Tablet media query----------------------------*/
