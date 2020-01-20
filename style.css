@@ -59,6 +59,7 @@ header {
 figure {
   display: flex;
   width: 150px;
+  float: left;
   border-style: solid;
   border-color: red;
 }
