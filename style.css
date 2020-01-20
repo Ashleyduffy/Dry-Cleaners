@@ -310,6 +310,9 @@ grid-template-areas:
 .bbb {
   max-height: 3em;
 }
+header {
+ max-height : 14em; 
+}
 }
 /*---------------------Tablet media query----------------------------*/
 @media only screen and (min-width: 480px)  {
