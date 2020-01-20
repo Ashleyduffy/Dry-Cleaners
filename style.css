@@ -24,6 +24,9 @@ header {
 .headerpic {
     grid-area:headerpic;
     }
+.headertext {
+  grid-area:headertext;
+}
 .social {
   grid-area:social;
 }
@@ -63,9 +66,9 @@ figcaption {
     
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
-    grid-template-columns:auto 25%;
+    grid-template-columns: 25% 50% 25%;
     grid-template-areas:
-    "headerpic social"
+    "headerpic headertext social"
     }
 
 header h1 {
