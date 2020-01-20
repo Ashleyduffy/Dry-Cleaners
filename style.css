@@ -40,7 +40,7 @@ header {
   border-color: red;
 }
 .logo {
-  max-height:4em; /*Note that the height and width may need to be adjusted for your image*/
+  max-height:15em; /*Note that the height and width may need to be adjusted for your image*/
 }
 .store4 {
   border-radius:10px;
