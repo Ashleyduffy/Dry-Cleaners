@@ -280,6 +280,9 @@ grid-template-areas:
 .bbb {
   max-height: 3em;
 }
+.facebook {
+  max-height: 3em; 
+}
 header {
  max-height : 14em; 
 }
