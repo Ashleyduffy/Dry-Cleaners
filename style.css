@@ -312,7 +312,7 @@ grid-template-areas:
   display:block;
 }
 .headerpic {
- max-height:20em;
+ max-height:25em;
 }
 .bbb {
   max-height: 3em;
@@ -354,7 +354,7 @@ header {
   display:block;
 }
   .headerpic {
- max-height:11em;
+ max-height:15em;
 }
 header p {
   text-align:left;
