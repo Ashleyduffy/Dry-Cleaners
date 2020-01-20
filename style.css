@@ -51,6 +51,7 @@ figure {
 figcaption {
   display: block;
   font-size: 10px;
+  color: navy;
 }
 .headerpic2 {
   grid-area:headerpic;
