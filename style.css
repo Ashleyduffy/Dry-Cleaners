@@ -44,6 +44,10 @@ header {
   border-radius:10px;
   float:center;
 }
+figure {
+  display: flex;
+  align-items: center;
+}
 figcaption {
   display: block;
   font-size: 10px;
