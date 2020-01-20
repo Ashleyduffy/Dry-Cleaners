@@ -24,20 +24,14 @@ header {
 .headerpic {
     grid-area:headerpic;
   max-height: 16em;
-  border-style: solid;
-  border-color: red;
     }
 .headertext {
   grid-area:headertext;
   max-height: 16em;
-  border-style: solid;
-  border-color: red;
     }
 .social {
   grid-area:social;
   max-height: 16em;
-  border-style: solid;
-  border-color: red;
 }
 .logo {
   max-height:15em; /*Note that the height and width may need to be adjusted for your image*/
