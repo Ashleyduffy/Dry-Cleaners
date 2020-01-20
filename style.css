@@ -27,9 +27,13 @@ header {
     position: relative;
     top: -15px;
     max-height:4em; /*Note that the height and width may need to be adjusted for your image*/
+  border-style: solid;
+  border-color: red;
     }
 .social {
     grid-area:social;
+  border-style: solid;
+  border-color: red;
 }
 .store4 {
   border-radius:10px;
@@ -61,6 +65,8 @@ figcaption {
 
 .headertext {
     border-radius:10px;
+  border-style: solid;
+  border-color: red;
     }
     
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
