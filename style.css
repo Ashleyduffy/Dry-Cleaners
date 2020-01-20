@@ -23,15 +23,12 @@ header {
 
 .headerpic {
     grid-area:headerpic;
-  max-height: 16em;
     }
 .headertext {
   grid-area:headertext;
-  max-height: 16em;
     }
 .social {
   grid-area:social;
-  max-height: 16em;
 }
 .logo {
   max-height:15em; /*Note that the height and width may need to be adjusted for your image*/
@@ -56,8 +53,6 @@ figure2 {
   align-items: center;
   width: 175px;
   float: left;
-  border-style: solid;
-  border-color: black;
 }
 figcaption {
   display: block;
