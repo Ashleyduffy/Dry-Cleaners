@@ -41,6 +41,7 @@ header {
 }
 .bbb {
   max-height:5em;
+  float: right;
 }
 
 .facebook {
@@ -52,6 +53,8 @@ header {
 figure {
   display: flex;
   align-items: center;
+  border-style: solid;
+  border-color: white;
 }
 figcaption {
   display: block;
