@@ -60,7 +60,7 @@ figure {
   display: flex;
   width: 100px;
   border-style: solid;
-  border-color: white;
+  border-color: red;
 }
 figcaption {
   display: block;
