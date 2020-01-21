@@ -34,7 +34,7 @@ header {
   max-height:15em; /*Note that the height and width may need to be adjusted for your image*/
 }
 
-  figure2 {
+ .figure2 {
   display: flex;
   align-items: center;
   width: 175px;
