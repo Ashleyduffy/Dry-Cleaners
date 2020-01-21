@@ -52,6 +52,7 @@ figcaption {
     
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
+    grid-gap:.5em;
     grid-template-columns:25% 50% 25%;
     grid-template-areas:
     "headerpic headertext social"
