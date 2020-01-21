@@ -37,15 +37,13 @@ header {
 .logo {
   max-height:15em; /*Note that the height and width may need to be adjusted for your image*/
 }
-figure img {
- margin: 5px;
-}
 
  .figure2 {
   display: flex;
   align-items: center;
-  width: 175px;
+
   float: left;
+  padding:5px;
 }
 figcaption {
   display: block;
