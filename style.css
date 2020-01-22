@@ -197,6 +197,9 @@ aside {
     color: navy;
     grid-area:aside;
     }
+aside a {
+ color: navy;
+}
 /*Slideshow*/
 @keyframes slidy {
 0% { left: 0%; }
