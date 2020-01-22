@@ -12,7 +12,7 @@ img {
     max-width:100%;
     }
 .box {
-  border-radius: 1px;
+  border-: 1px;
   padding: 10px;
     }
     
@@ -289,7 +289,9 @@ grid-template-areas:
   max-height: 3em;
 }
 .facebook {
-  max-height: 3em; 
+  max-height: 3em;
+ border-radius:10px;
+ margin-right:5px;
 }
 header {
  max-height : 14em; 
