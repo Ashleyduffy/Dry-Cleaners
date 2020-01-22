@@ -41,7 +41,8 @@ header {
  .figure2 {
   display: flex;
   align-items: center;
-
+  padding: 5px;
+}
   float: left;
   padding:5px;
 }
