@@ -303,6 +303,10 @@ header {
     grid-template-areas:
     "headerpic headertext social"
     }
+.figure2 {
+ min-height:100px;
+ min-width: 175px;
+}
 }
 /*---------------------Tablet media query----------------------------*/
 @media only screen and (min-width: 480px)  {
