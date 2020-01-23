@@ -254,7 +254,7 @@ grid-template-areas:
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
     }
 .bbb {
-  max-height:5em;
+  max-height:3em;
 }
 #flex-nav ul {
     display: none; /*jQuery toggles the nav from to this class to the .open when clicked*/
