@@ -41,7 +41,8 @@ header {
  .figure2 {
   display: flex;
   align-items: center;
- 
+  border-style: solid;
+  border-width: 5px;
 }
   .figure2 img {
    margin-right: .5em;
@@ -302,9 +303,6 @@ header {
     grid-template-areas:
     "headerpic headertext social"
     }
-.figure2 {
- min-height: 12em;
-}
 }
 /*---------------------Tablet media query----------------------------*/
 @media only screen and (min-width: 480px)  {
