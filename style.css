@@ -296,13 +296,6 @@ header {
 .facebook{
  max-height: 3em;
 }
-.headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
-    display:grid;
-    min-height:16em;
-    grid-template-columns:40% 35% 25%;
-    grid-template-areas:
-    "headerpic headertext social"
-    }
 .figure2 {
  min-height:75px;
  min-width: 100px;
