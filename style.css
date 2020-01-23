@@ -12,7 +12,7 @@ img {
     max-width:100%;
     }
 .box {
-  border-: 1px;
+  border: 1px;
   padding: 10px;
     }
     
@@ -291,7 +291,7 @@ grid-template-areas:
  max-height:25em;
 }
 header {
- max height:25em;
+ max-height:25em;
 }
 .facebook{
  max-height: 3em;
@@ -307,14 +307,13 @@ header {
  min-height:75px;
  min-width: 100px;
 padding: 5px;
-allign-items: center;
+align-items: center;
  border-style: solid;
  border-color: red;
 }
 .social {
  border-style: solid;
  border-color: red;
-}
 }
 /*---------------------Tablet media query----------------------------*/
 @media only screen and (min-width: 480px)  {
