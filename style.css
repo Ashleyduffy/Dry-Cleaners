@@ -304,8 +304,8 @@ header {
     "headerpic headertext social"
     }
 .figure2 {
- min-height:100px;
- min-width: 175px;
+ min-height:50px;
+ min-width: 75px;
 }
 }
 /*---------------------Tablet media query----------------------------*/
