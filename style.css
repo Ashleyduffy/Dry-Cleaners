@@ -288,9 +288,7 @@ grid-template-areas:
 .headerpic {
  max-height:25em;
 }
-.bbb {
-  max-height: 3em;
-}
+
 .facebook{
   max-height: 3em;
  border-radius:10px;
@@ -316,7 +314,7 @@ header {
     "footer footer";
     }
   .facebook {
-  max-height:3em;
+  max-height:5em;
 }
  
   #content-desktop {
