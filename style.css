@@ -54,8 +54,10 @@ figcaption {
 }
 .headerpic2 {
   grid-area:headerpic;
- 
     } 
+.facebook {
+ border-radius: 10px;
+}
     
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
