@@ -288,6 +288,9 @@ grid-template-areas:
 .headerpic {
  max-height:25em;
 }
+header {
+ max height:25em;
+}
 .facebook{
  max-height: 3em;
 }
