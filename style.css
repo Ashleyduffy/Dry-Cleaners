@@ -306,6 +306,7 @@ header {
 .figure2 {
  min-height:50px;
  min-width: 75px;
+ margin-right: 0;
 }
 }
 /*---------------------Tablet media query----------------------------*/
