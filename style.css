@@ -253,7 +253,7 @@ grid-template-areas:
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
     }
 .bbb {
-  max-height:3em;
+  max-height:5em;
 }
 #flex-nav ul {
     display: none; /*jQuery toggles the nav from to this class to the .open when clicked*/
@@ -302,6 +302,9 @@ header {
     grid-template-areas:
     "headerpic headertext social"
     }
+.figure2 {
+ min-height: 12em;
+}
 }
 /*---------------------Tablet media query----------------------------*/
 @media only screen and (min-width: 480px)  {
