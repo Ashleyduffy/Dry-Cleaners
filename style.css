@@ -297,8 +297,6 @@ header {
  max-height: 3em;
 }
 .figure2 {
- min-height:75px;
- min-width: 100px;
 padding: 5px;
 align-items: center;
  border-style: solid;
