@@ -290,7 +290,7 @@ grid-template-areas:
 }
 
 .facebook{
-  max-height: 6em;
+  min-height: 6em;
  border-radius:10px;
 }
 header {
@@ -307,6 +307,10 @@ header {
  min-height:50px;
  min-width: 75px;
  margin-right: 0;
+}
+.social {
+ border-style: solid red;
+ border-width: 5px;
 }
 }
 /*---------------------Tablet media query----------------------------*/
