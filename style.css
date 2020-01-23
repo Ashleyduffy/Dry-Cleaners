@@ -289,8 +289,7 @@ grid-template-areas:
  max-height:25em;
 }
 .facebook{
- border-style: solid;
- border-color: red;
+ max-height: 3em;
 }
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
@@ -302,7 +301,9 @@ grid-template-areas:
 .figure2 {
  min-height:75px;
  min-width: 100px;
- margin-right: 0;
+ margin-right: 5px;
+ border-style: solid;
+ border-color: red;
 }
 .social {
  border-style: solid;
