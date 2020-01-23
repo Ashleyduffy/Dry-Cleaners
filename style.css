@@ -306,7 +306,8 @@ header {
 .figure2 {
  min-height:75px;
  min-width: 100px;
- margin-right: 5px;
+padding: 5px;
+allign-items: center;
  border-style: solid;
  border-color: red;
 }
