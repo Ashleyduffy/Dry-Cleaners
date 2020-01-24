@@ -287,7 +287,7 @@ grid-template-areas:
   display:none;
 }
 #content-mobile {
-  display:block;
+  display:grid;
 }
 .headerpic {
  max-height:25em;
@@ -316,7 +316,7 @@ header {
 }
  
   #content-desktop {
-  display:block;
+  display:grid;
 }
 #content-mobile {
   display:none;
@@ -325,7 +325,7 @@ header {
   display:none;
 }
 #content-mobile {
-  display:block;
+  display:grid;
 }
   .headerpic {
  max-height:14em;
@@ -369,7 +369,7 @@ header p {
     padding-top:10px;
     }
   #content-desktop {
-  display:block;
+  display:grid;
 }
 #content-mobile {
   display:none;
