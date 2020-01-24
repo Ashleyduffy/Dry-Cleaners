@@ -104,7 +104,6 @@ nav {
     position: sticky;
     top:0;
     z-index:999;
-    font-weight:bold;
 }
 h2 {
   font-family: Arial;
@@ -233,6 +232,7 @@ grid-template-areas:
 #flex-nav a {
     color:white;
     text-decoration:none;
+    font-weight:bold;
     }
 #flex-nav a:hover {
     color:white;
