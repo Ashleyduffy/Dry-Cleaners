@@ -54,8 +54,8 @@ figcaption {
     } 
 .facebook {
  border-radius: 10px;
- max-height: 3em;
- min-height: 2em;
+ height: 3em;
+ width: 3em;
  margin-right: 1em;
 }
     
@@ -105,6 +105,7 @@ nav {
     position: sticky;
     top:0;
     z-index:999;
+    font-weight:bold;
 }
 h2 {
   font-family: Arial;
@@ -149,51 +150,7 @@ main a {
     
     font-weight:bold;
 }
-.csstricks {
-    margin:auto 5%;
-    max-width:90%;
-    } 
-    
-.section1 { 
-    background-color: brown;
-    color: white;
-    grid-area:section1;
-    }
-.section2{
-    background-color: indigo;
-    color: white;
-    grid-area:section2;
-    }
-.section3{
-    background-color: orange;
-    color: white;
-    grid-area:section3;
-    }
-    
-section a {
-    color:black;
-    font-weight:bold;
-}
-.article1 {
-    background-color:gray;
-    color: black;
-    grid-area:article1;
-    }
-.article2 {
-    background-color: rgba(255,255,255,.3);
-    color: black;
-    grid-area:article2;
-    }
-.article3 {
-    background:linear-gradient(to top, white, black);
-    color: white;
-    grid-area:article3;
-    }
-.article4 {
-    background-color: rgba(255,255,255,.3);
-    color: white;
-    grid-area:article4;
-    }
+
 aside {
     background:rgba(255,255,255,.3);
     color: navy;
@@ -303,9 +260,6 @@ header {
     "main aside"
     "footer footer";
     }
-  .facebook {
-  max-height:5em;
-}
  
   #content-desktop {
   display:grid;
