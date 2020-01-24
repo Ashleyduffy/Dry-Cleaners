@@ -43,9 +43,7 @@ header {
   align-items: center;
  
 }
-  .figure2 img {
-   margin-right: .5em;
-}
+
 figcaption {
   display: block;
   font-size: 20px;
@@ -58,6 +56,7 @@ figcaption {
  border-radius: 10px;
  max-height: 3em;
  min-height: 2em;
+ margin-right: 1em;
 }
     
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
