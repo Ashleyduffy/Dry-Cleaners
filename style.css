@@ -60,7 +60,7 @@ figcaption {
     
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
-    grid-template-columns:1fr 2fr .75fr;
+    grid-template-columns:1fr 2fr .9fr;
     grid-template-areas:
     "headerpic headertext social"
     }
