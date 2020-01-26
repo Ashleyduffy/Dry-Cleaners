@@ -155,6 +155,7 @@ aside {
     }
 aside a {
  color: navy;
+ font-weight: bold;
 }
 /*Slideshow*/
 @keyframes slidy {
