@@ -33,7 +33,6 @@ header {
 .social {
   grid-area:social;
   max-height: 18em;
- width: auto;
 }
 .logo {
   max-height:15em; /*Note that the height and width may need to be adjusted for your image*/
