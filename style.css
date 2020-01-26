@@ -29,6 +29,7 @@ header {
 .headertext {
   grid-area:headertext;
   max-height: 18em;
+  text-align: center;
     }
 .social {
   grid-area:social;
