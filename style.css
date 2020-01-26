@@ -33,6 +33,7 @@ header {
 .social {
   grid-area:social;
   max-height: 18em;
+ width: auto;
 }
 .logo {
   max-height:15em; /*Note that the height and width may need to be adjusted for your image*/
@@ -60,7 +61,7 @@ figcaption {
     
 .headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
     display:grid;
-    grid-template-columns:30% 45% auto;
+    grid-template-columns:1fr 2fr 1fr;
     grid-template-areas:
     "headerpic headertext social"
     }
