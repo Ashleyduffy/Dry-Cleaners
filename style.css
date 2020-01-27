@@ -113,6 +113,9 @@ main a {
     
     font-weight:bold;
 }
+.button {
+ color: navy;
+}
 h2 {
   font-family: Arial;
 }
