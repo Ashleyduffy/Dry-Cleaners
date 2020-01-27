@@ -89,6 +89,11 @@ header p {
   color: navy;
   font-size: 15px;
 }
+.wrapper1 {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
 nav {   
     background-color:#B21515;
     font-size:125%;
@@ -163,9 +168,6 @@ footer {
     display: grid;
     margin:0;
     grid-gap: .5em;
-    position: fixed;
-    z-index: 2;
-    width: 100%;
     grid-template-areas:
     "nav"
     "header"
