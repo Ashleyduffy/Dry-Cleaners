@@ -24,43 +24,40 @@ header {
 
 .headerpic {
     grid-area:headerpic;
-  max-height: 18em;
+
     }
 .headertext {
-  grid-area:headertext;
-  max-height: 18em;
-  text-align: center;
+   grid-area:headertext;
+    text-align:center;
+
     }
 .social {
   grid-area:social;
-  max-height: 18em;
+
 }
 .logo {
-  max-height:15em; /*Note that the height and width may need to be adjusted for your image*/
+  min-height:6em;
 }
-
- .figure2 {
-  display: flex;
-  
-  margin-right:0;
+figure {
+  margin:0;
 }
-
-figcaption {
-  display: block;
-  font-size: 20px;
-  color: navy;
+.figure1 {
+   text-align:center;
 }
-.headerpic2 {
-  grid-area:headerpic;
-    } 
 .facebook {
- border-radius: 10px;
- margin: 1em;
+ max-height:3em;
+ min-width:1.5em;
+ border-radius: 10%;
+ margin-left:1em;
+ margin-right: 2em;
+ margin-top:1em;
 }
-    
-.headerwrapper { /*Subgrid in my header to keep my picture and text seperated*/
+.bbb {
+  max-height:3em;
+}   
+.headerwrapper {
     display:grid;
-    grid-template-columns:1fr 2fr .9fr;
+    grid-template-columns:1.3fr 2fr 1fr;
     grid-template-areas:
     "headerpic headertext social"
     }
@@ -105,9 +102,105 @@ nav {
     top:0;
     z-index:999;
 }
+
+main {
+    background:rgba(255,255,255,.3);
+    color:navy;
+    grid-area:main;
+  
+    }
+main a {
+    
+    font-weight:bold;
+}
 h2 {
   font-family: Arial;
 }
+aside {
+    background:rgba(255,255,255,.3);
+    color: navy;
+    grid-area:aside;
+    }
+aside a {
+ color: navy;
+ font-weight:bold;
+}
+/*Slideshow*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+65% { left: -200%; }
+70% { left: -300%; }
+85% { left: -300%; }
+100% { left: -400%; }
+}
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%;}
+div#slider figure { 
+  position: relative;
+  z-index:1;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+footer {
+    background:rgba(255,255,255,.3);
+    color:navy;
+    text-align:right;
+    grid-area:footer;
+    }
+
+
+   
+/*--------Mobile first - no media query needed until the screen is larger than 480px---------*/  
+.wrapper1 { /*index.html*/
+    display: grid;
+    margin:0;
+    grid-gap: .5em;
+    grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "aside"
+    "footer";
+  }
+ 
+/*This stuff is for the hamburger menu*/
+.toggleNav {
+    display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
+    }
+
+#flex-nav ul {
+    display: none; /*jQuery toggles the nav from to this class to the .open when clicked*/
+    text-align:center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+ 
+#flex-nav ul.open { /*.open is the class that gets toggled when clicked (with help from the jQuery code)*/
+    display:grid;
+    }
+    
+#flex-nav li {
+    padding-left:10px;
+    padding-top:10px;
+    }
+#flex-nav a {
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    }
+#flex-nav a:hover {
+    color:white;
+    }
+
 nav ul {
  list-style-type: none; 
 }
@@ -138,117 +231,16 @@ nav ul {
     "fifth";
     }
     
-main {
-    background:rgba(255,255,255,.3);
-    color:navy;
-    grid-area:main;
-  
-    }
-main a {
-    
-    font-weight:bold;
-}
-
-aside {
-    background:rgba(255,255,255,.3);
-    color: navy;
-    grid-area:aside;
-    }
-aside a {
- color: navy;
- font-weight: bold;
-}
-/*Slideshow*/
-@keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-65% { left: -200%; }
-70% { left: -300%; }
-85% { left: -300%; }
-100% { left: -400%; }
-}
-div#slider { overflow: hidden; }
-div#slider figure img { width: 20%;}
-div#slider figure { 
-  position: relative;
-  z-index:1;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite; 
-}
-footer {
-    background:rgba(255,255,255,.3);
-    color:navy;
-    text-align:center;
-    grid-area:footer;
-    }
-.nestedgrid{
-display:grid;
-grid-template-areas:
-"div1 div2 div3 div4";
-}
-    
-/*--------Mobile first - no media query needed until the screen is larger than 480px---------*/  
-.wrapper1 { /*index.html*/
-    display: grid;
-    margin:0;
-    grid-gap: .5em;
-    grid-template-areas:
-    "nav"
-    "header"
-    "main"
-    "aside"
-    "footer";
-  }
- 
-/*This stuff is for the hamburger menu*/
-.toggleNav {
-    display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
-    }
-.bbb {
-  max-height:3em;
-}
-#flex-nav ul {
-    display: none; /*jQuery toggles the nav from to this class to the .open when clicked*/
-    text-align:center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    }
- 
-#flex-nav ul.open { /*.open is the class that gets toggled when clicked (with help from the jQuery code)*/
-    display:grid;
-    }
-    
-#flex-nav li {
-    padding-left:10px;
-    padding-top:10px;
-    }
-#flex-nav a {
-    color:white;
-    text-decoration:none;
-    font-weight:bold;
-    }
-#flex-nav a:hover {
-    color:white;
-    }
 #content-desktop {
   display:none;
 }
 #content-mobile {
   display:grid;
 }
-.headerpic {
- max-height:25em;
-}
-header {
- max-height:25em;
+.nestedgrid{
+display:grid;
+grid-template-areas:
+"div1 div2 div3 div4";
 }
 /*---------------------Tablet media query----------------------------*/
 @media only screen and (min-width: 480px)  {
@@ -261,28 +253,22 @@ header {
     "footer footer";
     }
  
-  #content-desktop {
-  display:grid;
-}
-#content-mobile {
-  display:none;
-}
-    #content-desktop {
+#content-desktop {
   display:none;
 }
 #content-mobile {
   display:grid;
 }
-  .headerpic {
- max-height:14em;
- left: 10px;
+.facebook {
+ max-height:4em;
+ min-width:2em;
+ margin-right:.25em;
+ margin-bottom:0;
+ margin-top:2em;
 }
-header p {
-  text-align:left;
-  }
 } 
 /*---------------------Desktop media query----------------------------*/
-@media only screen and (min-width: 960px)   {
+@media only screen and (min-width: 1100px)   {
      
 .wrapper1 { /*index.html*/
     grid-template-columns: 60% auto;
@@ -292,10 +278,7 @@ header p {
     "main aside"
     "footer footer";
     }
-  .facebook {
-  max-height:4em;
-}
-    
+
 #navwrapper {
     display:grid;
     grid-template-areas:
@@ -309,18 +292,17 @@ header p {
 #flex-nav ul {
     display:grid;
     text-align:center;
-  }
+}
 #flex-nav li {
-    
     padding-top:10px;
-    }
-  #content-desktop {
+}
+#content-desktop {
   display:grid;
 }
 #content-mobile {
   display:none;
 }
- .headerpic {
- max-height:10em;
-}   
+.facebook{
+  margin-top:1em;
+  margin-right:0;
 }
