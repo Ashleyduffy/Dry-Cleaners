@@ -152,7 +152,7 @@ div#slider figure {
 footer {
     background:rgba(255,255,255,.3);
     color:navy;
-    text-align:right;
+    text-align:center;
     grid-area:footer;
     }
 
