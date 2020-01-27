@@ -294,7 +294,7 @@ main {
   overflow: hidden;
 }
 
-.hero__img {
+.bubbles {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -339,7 +339,7 @@ main {
   }
 }
 
-.hero__text {
+.logo {
   position: relative;
   text-align: center;
   display: flex;
