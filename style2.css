@@ -163,12 +163,16 @@ footer {
     display: grid;
     margin:0;
     grid-gap: .5em;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
     grid-template-areas:
     "nav"
     "header"
     "main"
     "aside"
     "footer";
+ 
   }
  
 /*This stuff is for the hamburger menu*/
