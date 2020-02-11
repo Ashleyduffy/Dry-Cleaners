@@ -1,16 +1,29 @@
 /*index - this does the sticky navigation (top) and the header having an image beside the text*/
 * {
- box-sizing:border-box; 
+ box-sizing:border-box;
 }
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-image: url("bubbles.png");
-  background-repeat: repeat;
-  font-family: Arial;
-  margin:0;
-    }
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
 img {
-    max-width:100%;
-    }
+  max-width: 100%;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .box {
   border: 1px;
   padding: 10px;
@@ -54,12 +67,18 @@ figure {
 }
 .bbb {
   max-height:3em;
-}   
+}
 .headerwrapper {
     display:grid;
     grid-template-columns:1.3fr 2fr 1fr;
     grid-template-areas:
     "headerpic headertext social"
+    }
+    header {
+     position: fixed;
+  z-index: 2;
+  width: 100%;
+    }
     }
 header h1 {
      font-size:6vw;
@@ -94,7 +113,7 @@ header p {
   z-index: 2;
   width: 100%;
 }
-nav {   
+nav {
     background-color:#B21515;
     font-size:125%;
     grid-area:nav;
@@ -121,6 +140,265 @@ main a {
 h2 {
   font-family: Arial;
 }
+/* Scroll behaviour */
+@media (min-height: 30em) {
+  main {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+}
+/* Sections */
+.section {
+  color: white;
+  position: relative;
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+@media (min-height: 30em) {
+  .section {
+    height: 100vh;
+  }
+}
+.section a {
+  text-decoration: underline;
+  color: white;
+}
+.section a:hover, .section a:focus {
+  opacity: 0.7;
+}
+
+.section__header {
+  display: none;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 1.25rem;
+  color: #6b6a67;
+  height: 5rem;
+  flex: 0 0 auto;
+  z-index: 2;
+  align-items: center;
+  width: 300px;
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+  background-color: black;
+}
+@media (min-width: 60em) {
+  .section__header {
+    display: flex;
+  }
+}
+
+.section__title {
+  margin: 0;
+  font-size: 1.375rem;
+  letter-spacing: 0.03rem;
+}
+
+.section__content {
+  
+  
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+@media (min-width: 60em) {
+  .section__content {
+    --pad: 2.5rem;
+    display: grid;
+    grid-template-columns: 4fr 3fr 1fr 4fr 2fr 2fr 4fr 1fr 3fr 4fr;
+    grid-template-rows: minmax(0, 1fr) repeat(6, minmax(2.5rem, auto)) minmax(0, 1fr);
+    gap: 1.25rem;
+  }
+}
+@media (min-height: 30em) {
+  .section__content > * {
+    opacity: 0;
+    transform: translate3d(0, 4rem, 0);
+    transition: opacity 800ms var(--delay), transform 800ms cubic-bezier(0.13, 0.07, 0.26, 0.99) var(--delay);
+  }
+}
+
+.is-visible .section__content > * {
+  opacity: 1;
+  transform: translate3d(0, 1rem, 0);
+}
+.is-visible .section__img {
+  opacity: 0.75;
+}
+
+.section__main-title {
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 60em) {
+  .section__main-title {
+    text-align: left;
+  }
+}
+
+.section__main-title--left {
+  grid-column: 2 / -2;
+  grid-row: 4 / 6;
+}
+
+.section__main-title--right {
+  grid-column: 2 / -2;
+  grid-row: 4 / 6;
+}
+@media (min-width: 60em) {
+  .section__main-title--right {
+    text-align: right;
+  }
+}
+
+.section__img {
+  max-width: 18.75rem;
+  margin-bottom: 1.875rem;
+  grid-column: 4 / -1;
+  grid-row: 1 / -1;
+}
+@media (min-width: 60em) {
+  .section__img {
+    margin-bottom: 0;
+    max-width: none;
+  }
+}
+
+.section__img--left {
+  grid-column: 1 / -4;
+}
+
+.section__intro {
+  text-align: center;
+  max-width: 50ch;
+}
+@media (min-width: 60em) {
+  .section__intro {
+    text-align: left;
+  }
+}
+
+/* Hero */
+.hero {
+  max-height: 50rem;
+  position: relative;
+  color: #fff;
+  background-color: #364b3b;
+  overflow: hidden;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+}
+
+.hero__bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hero__bg::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+  background: radial-gradient(rgba(0, 0, 0, 0.6) 70%, black);
+  opacity: 1;
+  transition: opacity 4000ms;
+}
+
+.is-visible .hero__bg {
+  filter: grayscale(0);
+}
+.is-visible .hero__bg::after {
+  opacity: 0.6;
+}
+
+.hero__text {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-shadow: 0 0.1em 0.9375rem rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  margin-bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.hero__intro {
+  width: 100%;
+  z-index: 1;
+  text-align:center;
+}
+@media (min-width: 60em) {
+  .hero__intro {
+    font-size: 1.375rem;
+  }
+}
+
+.qdc {
+  opacity: 0.7;
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.gentle-giants {
+  background-color: rgba(43, 138, 130, 0.8);
+}
+
+.gentle-giants__intro {
+  grid-column: 3 / 6;
+  grid-row: 6 / 8;
+}
+
+.gentle-giants__img {
+  grid-column: 4 / -1;
+  grid-row: 1 / -1;
+}
+
+.carnivore-kingdom__intro {
+  grid-column: -6 / -3;
+  grid-row: 6 / 8;
+}
+
+.aerial-adventure {
+  background-color: rgba(138, 43, 68, 0.8);
+}
+
+.aerial-adventure__intro {
+  grid-column: 3 / 6;
+  grid-row: 6 / 8;
+}
+
 
 footer {
     background:rgba(255,255,255,.3);
@@ -131,7 +409,7 @@ footer {
 
 
    
-/*--------Mobile first - no media query needed until the screen is larger than 480px---------*/  
+/*--------Mobile first - no media query needed until the screen is larger than 480px---------*/
 .wrapper1 { /*index.html*/
     display: grid;
     margin:0;
@@ -140,7 +418,7 @@ footer {
     "nav"
     "header"
     "main"
-    "aside"
+
     "footer";
  
   }
@@ -176,7 +454,7 @@ footer {
     }
 
 nav ul {
- list-style-type: none; 
+ list-style-type: none;
 }
 /*This stuff is to make my navigation go horizontal on full screen*/
 .first {
@@ -198,24 +476,24 @@ nav ul {
 #navwrapper {
     display:grid;
     grid-template-areas:
-    "first" 
+    "first"
     "second"
     "third"
-    "fourth" 
+    "fourth"
     "fifth";
     }
-    
-#content-desktop {
-  display:none;
-}
-#content-mobile {
-  display:grid;
-}
-.nestedgrid{
-display:grid;
-grid-template-areas:
-"div1 div2 div3 div4";
-}
+      h1 {
+    font-size: 5rem;
+  }
+  .wrapper2 { /*location.html*/
+    grid-template-columns: auto;
+    grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "footer";
+    }
+
 /*---------------------Tablet media query----------------------------*/
 @media only screen and (min-width: 480px)  {
 .wrapper1 { /*index.html*/
@@ -223,7 +501,7 @@ grid-template-areas:
     grid-template-areas:
     "nav nav"
     "header header"
-    "main aside"
+    "main main"
     "footer footer";
     }
  
@@ -240,16 +518,19 @@ grid-template-areas:
  margin-bottom:0;
  margin-top:2em;
 }
-} 
+h1 {
+    font-size: 6.875rem;
+  }
+}
 /*---------------------Desktop media query----------------------------*/
 @media only screen and (min-width: 1100px)   {
      
 .wrapper1 { /*index.html*/
     grid-template-columns: 60% auto;
     grid-template-areas:
-    "nav nav"        
+    "nav nav"
     "header header"
-    "main aside"
+    "main main"
     "footer footer";
     }
 
@@ -279,6 +560,11 @@ grid-template-areas:
 .facebook{
   margin-top:1em;
   margin-right:0;
+}
+
+ h2 {
+    font-size: 3.75rem;
+  }
 }
 
 
