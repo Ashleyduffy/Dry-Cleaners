@@ -4,13 +4,17 @@
     <title>Quality Dry Cleaners</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/scss" href="style.scss">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="code.js"></script>
+    <script src="flickity.js"></script>
     <link rel="icon" href="favicon.png">
 </head>
  <body>
-   <header data-header class="wrapper1">
+   <header data-header class="wrapper2">
 
         <nav id="flex-nav">
             <a href="#" class="toggleNav">☰ Menu</a> <!--This will only be visible less than 480px wide-->
@@ -31,7 +35,7 @@
         <h4> (937)848-0054 </h4>
       </div>
       <div class="social">
-        <div id="content-desktop">  
+        <div id="content-desktop">
             <ul>
               <li>Kettering - 937-299-2099</li>
               <li>Bellbrook - 937-848-0054</li>
@@ -43,122 +47,135 @@
          <div id="content-mobile">
           </div>
           <figure class="figure1">
-      <a target="blank" href="https://www.facebook.com/qualitydrycleaners/"> 
+      <a target="blank" href="https://www.facebook.com/qualitydrycleaners/">
         <img class="facebook" src="facebook.jpg" alt="Facebook"></a>
         <img class="bbb" src="bbb.PNG" alt="BBB">
           </figure>
           </div>
     </header>
-  <main class="box mainaside"><h2>Same day service available!</h2>We have 5 convienient locations to accomodate all your
-    dry cleaning and laundry needs
-    <p>Whether it's your wedding dress or shirt, Quality Dry Cleaners has you covered.</p>
-   <img class="store4" src="store4.JPG" alt="clothes">
-   <p class="nestedgrid">
-      <div class="div1">
-        <p>Dry Cleaning services for the entire family</p>
-        <p>Your clothing, linens, and upholstery have never been cleaner. We do: </p>
-        <ul>
-        <li>Hats / Shirts</li>
-        <li>Rugs / bedding</li>
-        <li>Wedding gowns</li>
-        <li>Clothing repair</li>
-        <li>Clothing alterations</li>
-        </ul>
-        <img class="dress" src="dresses.jpg" alt="dresses">
-   </div>
-        <div class="div2">
-          <p> Professional cleaning service to preserve your wedding gown</p>
-          <p>Your wedding gown is serviced better by our services</p>
-<ul>
-  <li>Stain removal</li>
-  <li>Gown alterations</li>
-  <li>Gown preservation</li>
-  <li>Used gown refreshing</li>
-  <li>Wedding gown dry cleaning</li>
-          </ul>
-        </div>
-   <div class="div3">
-     <p>Keep your linens smelling fresh and clean</p>
-     <p>When your household linens need refreshing, call Quality Dry Cleaners to the rescue. </p>
-     <ul>
-     <li>Bedspreads</li>
-     <li>Comforters</li>
-     <li>Draperies</li>
-     <li>Tablecloths</li>
-     <li>Pillow cases</li>
-     </ul>
-   </div>
-        <div class="div4">
-          <p>Experience excellence in rug cleaning for your satisfaction</p>
-          <p>When your area rugs are looking dingy, bring them in for a thorough cleaning!</p>
-<ul>
-  <li>Area rugs</li>
-  <li>Small rugs</li>
-  <li>Large rugs</li>
-  <li>Outdoor rugs</li>
-  <li>Specialized rugs</li>
-          </ul>
-        </div>
-  </main>
-  <aside class="box">
-    <h2>Contact Us</h2>
-    <h4>Contact Name Steve Schram, Owner </h4>
-    <p>thequalitydrycleaners@gmail.com</p>
-    <p>1855 E. Stroop Rd.<br>
-       Kettering, OH 45429-5056<br>
-      937-299-2099 </p>
-    <a target="blank" href="https://www.google.com/maps/dir/39.6553042,-84.0695858/Quality+Dry+Cleaners,
-     +1855+E+Stroop+Rd+%235056,+Kettering,+OH+45429/@39.6725194,-84.1362137,13z/data=!3m1!4b1!4m9!4m8!1m1!
-     4e1!1m5!1m1!1s0x8840850d553ad675:0x885e686b5d4e1c3d!2m2!1d-84.1330819!2d39.6894382" >
-     <p>Click here for directions</p> </a>
-    <p>112 W. Franklin St.<br>
-       Bellbrook, OH 45305<br>
-       937-848-0054</p>
-    <a target="blank" href="https://www.google.com/maps/dir/39.6553042,-84.0695858/Quality+Dry+Cleaners,+112+W+Franklin+St,
-    +Bellbrook,+OH+45305/@39.6456625,-84.0807194,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88409157518f9015:0x71ebad12837ae019!
-     2m2!1d-84.0744954!2d39.6369427" >
-     <p>Click here for directions</p> </a>
-    <p>15 W. Whipp Rd.<br>
-       Centerville, OH 45459<br>
-       937-434-3553</p>
-     <a target="blank" href="https://www.google.com/maps/dir/39.6553042,-84.0695858/Quality+Dry+Cleaners,+15+W+Whipp+Rd,+Dayton,
-     +OH+45459/@39.6551427,-84.1843771,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88408f68ba094c11:0x621d37fc63c05a8e!2m2!1d-84
-     .1593966!2d39.6594321" >
-     <p>Click here for directions</p> </a>
-    <p>1285 N Fairfield Rd.<br>
-       Beavercreek, OH 45432<br>
-       937-203-0581</p>
-     <a target="blank" href="https://www.google.com/maps/dir/39.6553042,-84.0695858/Quality+Dry+Cleaners,+1285+N+Fairfield+Rd,
-     +Beavercreek,+OH+45432/@39.6916712,-84.083901,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88409ba08141e077:0xdc75b62a536633b
-     0!2m2!1d-84.0575034!2d39.7274823" >
-     <p>Click here for directions</p> </a>
-    <p>964 Patterson Rd.<br>
-       Dayton, OH 45419<br>
-       937-299-2071</p>
-     <a target="blank" href="https://www.google.com/maps/dir/39.6553042,-84.0695858/Quality+Dry+Cleaners,+964+Patterson+Rd,+Dayton,
+  <main>
+    <h2>Locations</h2>
+	<section class="section hero">
+		<div class="hero__bg">
+			
+		</div>
+		
+	</section>
+
+	<section class="section gentle-giants">
+
+		<div
+			class="section__content section__content--gentle-giants"
+			data-content
+		>
+			<img class="section__img" src="store1.JPG" alt='store'>
+			<h2 class="section__main-title section__main-title--left">
+				Dayton
+			</h2>
+			<div class="dayton">
+				<p>
+					964 Patterson Rd.<br>
+Dayton, OH 45419
+
+				</p>
+				     <a target="blank" href="https://www.google.com/maps/dir/39.6553042,-84.0695858/Quality+Dry+Cleaners,+964+Patterson+Rd,+Dayton,
      +OH+45419/@39.6897464,-84.1763982,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x884084470623ca27:0x912271317e98f10a!2m2!1d-84.
      153207!2d39.723985" >
      <p>Click here for directions</p> </a>
-    <p>Business Hours:</p>
-    <p>Kettering Location Only<br>
-       Monday - Friday: 7:00am to 7:00pm<br>
-       Saturday: 9:00am to 3:00pm</p>
-    <p>All Other Locations<br>
-       Monday - Friday: 7:30am to 7:00pm<br>
-       Saturday: 9:00am to 3:00pm</p>
-    <br>
-    <br>
-    <div id="slider">
-            <figure>
-                <img src="store1.JPG" alt="pic">
-                <img src="store2.JPG" alt="pic">
-                <img src="store3.jpg" alt="pic">
-                <img src="store5.JPG" alt="pic">
-                <img src="store6.jpg" alt="pic">
-            </figure>
-        </div>
-  </aside>
-  <footer class="box">&copy; 2020</footer>
-  </div>
-</body>
+			</div>
+		</div>
+	</section>
+
+	<section class="section carnivore-kingdom">
+		<header class="section__header">
+			<h3 class="section__title">Location</h3>
+		</header>
+		<div
+			class="section__content"
+			data-content
+		>
+			<img class="section__img section__img--left" src="store3.jpg" alt="store">
+			<h2 class="section__main-title section__main-title--right">Kettering</h2>
+			<div class="Kettering">
+				<div class="dayton">
+				<p>
+					1855 E. Stroop Rd.<br>
+Kettering, OH 45429-5056
+
+				</p>
+				     <a target="blank" href="https://www.google.com/maps/dir/39.6545662,-84.0692968/Quality+Dry+Cleaners,+1855+E+Stroop+Rd+%235056,+Kettering,+OH+45429/@39.6721553,-84.1362137,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8840850d553ad675:0x885e686b5d4e1c3d!2m2!1d-84.1330819!2d39.6894382" >
+     <p>Click here for directions</p> </a>
+			</div>
+					 
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="section gentle-giants">
+
+		<div
+			class="section__content section__content--gentle-giants"
+			data-content
+		>
+			<img class="section__img" src="store6.jpg" alt='store'>
+			<h2 class="section__main-title section__main-title--left">
+				Beavercreek
+			</h2>
+			<div class="dayton">
+				<p>
+					1285 N Fairfield Rd.<br>
+Beavercreek, OH 45432
+				</p>
+				     <a target="blank" href="https://www.google.com/maps/dir/39.6545662,-84.0692968/Quality+Dry+Cleaners,+1285+N+Fairfield+Rd,+Beavercreek,+OH+45432/@39.691019,-84.0983048,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88409ba08141e077:0xdc75b62a536633b0!2m2!1d-84.0575034!2d39.7274823" >
+     <p>Click here for directions</p> </a>
+			</div>
+		</div>
+	</section>
+	
+<section class="section gentle-giants">
+
+		<div
+			class="section__content section__content--gentle-giants"
+			data-content
+		>
+			<img class="section__img" src="store2.JPG" alt='store'>
+			<h2 class="section__main-title section__main-title--left">
+				Centerville
+			</h2>
+			<div class="dayton">
+				<p>
+					15 W. Whipp Rd.<br>
+Centerville, OH 45459
+				</p>
+				     <a target="blank" href="https://www.google.com/maps/dir/39.6545662,-84.0692968/Quality+Dry+Cleaners,+15+W+Whipp+Rd,+Dayton,+OH+45459/@39.6551427,-84.1843771,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88408f68ba094c11:0x621d37fc63c05a8e!2m2!1d-84.1593966!2d39.6594321" >
+     <p>Click here for directions</p> </a>
+			</div>
+		</div>
+	</section>
+	
+		
+<section class="section gentle-giants">
+
+		<div
+			class="section__content section__content--gentle-giants"
+			data-content
+		>
+			<img class="section__img" src="store5.JPG" alt='store'>
+			<h2 class="section__main-title section__main-title--left">
+				Bellbrook
+			</h2>
+			<div class="dayton">
+				<p>
+					112 W. Franklin St.<br>
+Bellbrook, OH 45305
+				</p>
+				     <a target="blank" href="https://www.google.com/maps/dir/39.6553202,-84.0695032/Quality+Dry+Cleaners,+112+W+Franklin+St,+Bellbrook,+OH+45305/@39.6456705,-84.0807187,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88409157518f9015:0x71ebad12837ae019!2m2!1d-84.0744954!2d39.6369427" >
+     <p>Click here for directions</p> </a>
+			</div>
+		</div>
+	</section>
+	
+</main>
 </html>
+
