@@ -97,7 +97,7 @@ nav {
     padding:.5em;
     margin:0;
     /*Lines 102 to 105 make the menu stick to the top*/
-    position: -webkit-sticky;
+   
     position: sticky;
     top:0;
     z-index:999;
