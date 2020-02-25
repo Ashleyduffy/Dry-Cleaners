@@ -1,8 +1,4 @@
-   $(document).ready(function() {
-      $('.toggleNav').click(function() {
-        $('#flex-nav ul').toggleClass('open');
-      });
-const sections = [...document.querySelectorAll("section")];
+ const sections = [...document.querySelectorAll("section")];
 
 let options = {
   rootMargin: "0px",
@@ -32,5 +28,3 @@ sections.forEach((section, index) => {
 
   observer.observe(section);
 });
-
-    });
