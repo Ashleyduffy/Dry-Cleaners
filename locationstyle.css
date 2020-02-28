@@ -306,7 +306,17 @@ grid-template-areas:
     "main aside"
     "footer footer";
     }
- 
+ .wrapper3 { /*location.html*/
+    display: grid;
+    margin:0;
+    grid-gap: .5em;
+    grid-template-areas:
+    "nav nav"
+    "header header"
+    "main main"
+    "footer footer";
+  }
+  
 #content-desktop {
   display:none;
 }
@@ -332,6 +342,16 @@ grid-template-areas:
     "main aside"
     "footer footer";
     }
+     .wrapper3 { /*location.html*/
+    display: grid;
+    margin:0;
+    grid-gap: .5em;
+    grid-template-areas:
+    "nav nav"
+    "header header"
+    "main main"
+    "footer footer";
+  }
 
 #navwrapper {
     display:grid;
