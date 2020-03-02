@@ -117,7 +117,7 @@ main a {
  color: navy;
 }
 main h1 {
-  text-align: left;
+  text-align: center;
   margin:30px;
 }
 main h2 {
@@ -497,6 +497,7 @@ grid-template-areas:
     display: none; /*Makes the hamburger icon with the word "Menu" to disappear at this screen size*/
   }
   
+  
 #flex-nav ul {
     display:grid;
     text-align:center;
@@ -522,3 +523,4 @@ grid-template-areas:
   counter-increment: gallery-cell;
 }
 }
+
