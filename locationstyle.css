@@ -157,9 +157,9 @@ div#slider figure {
  background-image: linear-gradient(45deg,#000080,#000047,#770808, #B21515);
   transform:skewY(-11deg);
   position:relative;
-  max-height:30em;
-  top:150px;
-  margin-top:50px;
+  max-height:15em;
+  top:110px;
+  margin-top:30px;
 }
 
 .storewrap {
@@ -186,7 +186,7 @@ div#slider figure {
   max-width:50em;
   margin:10 auto;
   transform: skewY(0deg);
-  font-size:180px;
+  font-size:150px;
   text-align:center;
   color:navy;
   padding:10px;
