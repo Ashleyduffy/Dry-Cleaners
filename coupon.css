@@ -119,6 +119,13 @@ main h1{
 h2 {
   font-family: Arial;
 }
+main h3{
+  text-align:center;
+}
+main h2{
+  text-align:center;
+}
+
 aside {
     background:rgba(255,255,255,.3);
     color: navy;
@@ -170,8 +177,16 @@ div#slider figure {
 .slide {
   float: left;
   height: 510px;
-  width: 728px;
+  width: 950px;
 }
+
+
+
+.slide img {
+  max-width:100%;
+}
+
+
 
 .slide:nth-child(1) {
   background: #B21515;
@@ -227,6 +242,18 @@ footer {
     "aside"
     "footer";
   }
+  .wrapper2 { /*services.html*/
+    display: grid;
+    margin:0;
+    grid-gap: .5em;
+    grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "aside"
+    "footer";
+  }
+ 
  
 /*This stuff is for the hamburger menu*/
 .toggleNav {
@@ -310,6 +337,7 @@ grid-template-areas:
     "footer footer";
     }
     
+    
 #content-desktop {
   display:none;
 }
@@ -335,6 +363,7 @@ grid-template-areas:
     "main aside"
     "footer footer";
     }
+     
 
 #navwrapper {
     display:grid;
