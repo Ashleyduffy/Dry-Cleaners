@@ -338,7 +338,7 @@ grid-template-areas:
     "footer footer";
     }
   .coupon{
- width:3.5em;
+ width:3em;
  }
     
 #content-desktop {
@@ -379,7 +379,7 @@ grid-template-areas:
   }
  
  .coupon{
- width:3.5em;
+ width:3em;
  }
   
 #flex-nav ul {
