@@ -3758,9 +3758,9 @@ return TapListener;
       require('tap-listener'),
       require('fizzy-ui-utils')
     );
-  } else {
-      content.setAttribute('aria-hidden', 'true');
-        button.setAttribute('aria-expanded', 'false');
+
+} else {
+     
     // browser global
     window.Flickity = window.Flickity || {};
     window.Flickity.PrevNextButton = factory(
@@ -3770,12 +3770,11 @@ return TapListener;
       window.TapListener,
       window.fizzyUIUtils
     );
-   content.setAttribute('aria-hidden', 'true');
-        button.setAttribute('aria-expanded', 'false'); 
+     content.setAttribute('aria-hidden', 'true');
+        button.setAttribute('aria-expanded', 'false');
   }
-
+content.setAttribute('aria-hidden', 'true');
 }( window, function factory( window, eventie, Flickity, TapListener, utils ) {
-
 
 
 // ----- inline SVG support ----- //
