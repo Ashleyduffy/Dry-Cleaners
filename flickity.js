@@ -3759,6 +3759,8 @@ return TapListener;
       require('fizzy-ui-utils')
     );
   } else {
+      content.setAttribute('aria-hidden', 'true');
+        button.setAttribute('aria-expanded', 'false');
     // browser global
     window.Flickity = window.Flickity || {};
     window.Flickity.PrevNextButton = factory(
