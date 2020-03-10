@@ -3770,6 +3770,8 @@ return TapListener;
       window.TapListener,
       window.fizzyUIUtils
     );
+   content.setAttribute('aria-hidden', 'true');
+        button.setAttribute('aria-expanded', 'false'); 
   }
 
 }( window, function factory( window, eventie, Flickity, TapListener, utils ) {
