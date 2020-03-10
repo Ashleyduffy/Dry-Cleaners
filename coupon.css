@@ -179,7 +179,9 @@ div#slider figure {
   height: 510px;
   width: 950px;
 }
-
+.coupon{
+ width: 1em;
+}
 
 
 .slide img {
@@ -253,8 +255,7 @@ footer {
     "aside"
     "footer";
   }
- 
- 
+
 /*This stuff is for the hamburger menu*/
 .toggleNav {
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
