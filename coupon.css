@@ -180,7 +180,7 @@ div#slider figure {
   width: 950px;
 }
 .coupon{
- width: 3em;
+ width: 2.5em;
 }
 
 
@@ -338,7 +338,7 @@ grid-template-areas:
     "footer footer";
     }
   .coupon{
- width:10em;
+ width:3em;
  }
     
 #content-desktop {
@@ -379,7 +379,7 @@ grid-template-areas:
   }
  
  .coupon{
- width:10em;
+ width:3em;
  }
   
 #flex-nav ul {
