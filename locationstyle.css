@@ -164,7 +164,7 @@ div#slider figure {
 
 .storewrap {
   max-width:50em;
-  margin:10 auto;
+  margin:10px auto;
   transform: skewY(0deg);
   font-size:2em;
   text-align:center;
@@ -184,7 +184,7 @@ div#slider figure {
 }
 .content {
   max-width:50em;
-  margin:10 auto;
+  margin:10px auto;
   transform: skewY(0deg);
   font-size:150px;
   text-align:center;
