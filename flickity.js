@@ -3739,7 +3739,10 @@ return TapListener;
   
   // universal module definition
 
-  if ( typeof define == 'function' && define.amd ) {
+  if
+
+  (typeof define == 'function' && define.amd ) {
+    
     // AMD
     define( 'flickity/js/prev-next-button',[
       'eventie/eventie',
@@ -3748,8 +3751,10 @@ return TapListener;
       'fizzy-ui-utils/utils'
     ], function( eventie, Flickity, TapListener, utils ) {
       return factory( window, eventie, Flickity, TapListener, utils );
-    });
-  } else if ( typeof exports == 'object' ) {
+    })
+    ;
+  } else if ( typeof exports == 'object' )
+  {
     // CommonJS
     module.exports = factory(
       window,
@@ -3758,9 +3763,9 @@ return TapListener;
       require('tap-listener'),
       require('fizzy-ui-utils')
     );
-
-} else {
-     
+  } else {
+      content.setAttribute('aria-hidden', 'true');
+        button.setAttribute('aria-expanded', 'false');
     // browser global
     window.Flickity = window.Flickity || {};
     window.Flickity.PrevNextButton = factory(
@@ -3770,11 +3775,10 @@ return TapListener;
       window.TapListener,
       window.fizzyUIUtils
     );
-     content.setAttribute('aria-hidden', 'true');
-        button.setAttribute('aria-expanded', 'false');
   }
 content.setAttribute('aria-hidden', 'true');
 }( window, function factory( window, eventie, Flickity, TapListener, utils ) {
+
 
 
 // ----- inline SVG support ----- //
