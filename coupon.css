@@ -90,14 +90,14 @@ header p {
   font-size: 15px;
 }
 nav {
-    background-color:#B21515;
+   background-color:#B21515;
     font-size:125%;
     grid-area:nav;
     text-align:center;
     padding:.5em;
     margin:0;
     /*Lines 102 to 105 make the menu stick to the top*/
-    position: -webkit-sticky;
+
     position: sticky;
     top:0;
     z-index:999;
