@@ -171,7 +171,7 @@ h2 {
 }
 .left {
   grid-area:left;
-
+ font-size:.5em;
 }
 .right{
   grid-area:right;
